@@ -1,0 +1,155 @@
+.navbar {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    transition: 0.25s;
+}
+
+.nav-logo {
+    height: 40px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.fa-bars:hover {
+    color: #ff9028;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ff9028 !important;
+}
+
+.offcanvas {
+    background: linear-gradient(to bottom, #a517ba, #5f1782);
+}
+
+.offcanvas-end {
+    width: 300px !important;
+}
+
+@media screen and (min-width:767.98px) {
+    .offcanvas {
+        background: transparent !important;
+    }
+}
+
+#home {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5rem;
+}
+
+.play-btn img {
+    width: 45px;
+    margin-right: 1rem;
+}
+
+.play-btn:hover {
+    color: #ff9028;
+}
+
+h2 {
+    position: relative !important;
+    padding: 1rem !important;
+}
+
+h2::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #5f1782;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    width: 15%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #5f1782;
+}
+
+#services .btn {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    transition: 0.3s;
+}
+
+#services .btn:hover {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#about-us {
+    background-color: #f8f9fa;
+}
+
+.testimonial-card {
+    position: relative;
+}
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #5f1782;
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+.social-icon {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    transform: translateY(-0.5rem);
+}
+
+#footer {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-img {
+    height: 35px;
+}
+
+#footer .fas {
+    display: inline-block;
+    background: linear-gradient(135deg, #a517ba, #5f1782);
+    padding: 0.5rem;
+}
+
+#footer .btn {
+    color: #fff;
+    background: linear-gradient(to bottom, #a517ba, #5f1782);
+    border: 1px solid white;
+}
+
+.scroll-btn {
+    background: linear-gradient(to bottom, #a517ba, #5f1782);
+}
